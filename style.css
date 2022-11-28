@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.outer{
+    width: 100%;
+    height: 100vh;
+    /* border: 10px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 0 0 10px 10px red initial; */
+}
+.main_container{
+    width: 90%;
+    height: 200px;
+    /* background-color: white; */
+    box-shadow: 0 0 30px 30px #63c9d9;
+}
+#present_hours{
+    width: 25%;
+    height: 200px;
+    /* border: 2px solid red; */
+    float: left;
+    font-size: 11rem;
+    color: #63c9d9;
+}
+#present_minutes{
+    width: 25%;
+    height: 200px;
+    /* border: 2px solid red; */
+    float: left;
+    font-size: 11rem;
+    color: #63c9d9;
+}
+#present_seconds{
+    width: 25%;
+    height: 200px;
+    /* border: 2px solid red; */
+    float: left;
+    font-size: 11rem;
+    color: #63c9d9;
+}
+#present_houram-pm{
+    width: 25%;
+    height: 200px;
+    float: left;
+    font-size: 11rem;
+    color: #63c9d9;
+}
