@@ -6,7 +6,7 @@ function getTime(){
     let presentMinutes = presentTime.getMinutes()
     let presentSeconds = presentTime.getSeconds()
 
-    if(presentHours <=12){
+    if(presentHours <=11){
         document.querySelector('#present_houram-pm').innerText = 'Good Morning'
     }
     else if(presentHours <=16){

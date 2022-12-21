@@ -16,7 +16,7 @@ body{
     /* border-radius: 0 0 10px 10px red initial; */
 }
 .main_container{
-    width: 90%;
+    width: 95%;
     height: 200px;
     /* background-color: white; */
     box-shadow: 0 0 30px 30px #63c9d9;
@@ -33,6 +33,8 @@ body{
     width: 25%;
     height: 200px;
     float: left;
-    font-size: 5rem;
+    font-size: 4rem;
     color: #63c9d9;
+    /* padding:10px; */
+    padding-top: 24px;
 }
