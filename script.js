@@ -15,11 +15,9 @@ function getTime(){
     else if(presentHours <=20){
         document.querySelector('#present_houram-pm').innerText = 'Good Evening'
     }
-    else{
+    else {
         document.querySelector('#present_houram-pm').innerText = 'Good Night'
     } 
-
-
 
     // if(presentHours <12){
     //     hours = hours - 12
@@ -28,13 +26,6 @@ function getTime(){
     // else{
     //     document.querySelector('#present_houram-pm').innerText = 'P.M'
     // }
-
-
-
-
-
-
-
 
     if(presentHours < 10){
         present_hours = '0' + hours

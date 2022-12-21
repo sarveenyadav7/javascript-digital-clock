@@ -21,23 +21,7 @@ body{
     /* background-color: white; */
     box-shadow: 0 0 30px 30px #63c9d9;
 }
-#present_hours{
-    width: 25%;
-    height: 200px;
-    /* border: 2px solid red; */
-    float: left;
-    font-size: 11rem;
-    color: #63c9d9;
-}
-#present_minutes{
-    width: 25%;
-    height: 200px;
-    /* border: 2px solid red; */
-    float: left;
-    font-size: 11rem;
-    color: #63c9d9;
-}
-#present_seconds{
+#present_hours , #present_minutes , #present_seconds{
     width: 25%;
     height: 200px;
     /* border: 2px solid red; */
